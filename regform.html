@@ -3,31 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regform.css"> 
+    <link rel="shortcut icon" href="6521996.png">
     <title>Registration Form</title>
 </head>
 <body>
     <fieldset>
         <legend>Register</legend>
-        First Name:
-        <input type="text"><br><br>
-        First Name:
-        <input type="text"><br><br>
-        Email:
-        <input type="email"><br><br>
-        Set Password:
-        <input type="password"><br><br>
-        Confirm Password:
-        <input type="password"><br><br>
-        D.O.B:
-        <input type="date"><br><br>
-        Phone Number:
-        <input type="tel"><br><br>
-        Age:
-        <input type="number"><br><br>
-        Address:
-        <textarea rows="3" cols="20"></textarea><br><br>
-        Resume:
-        <input type="file"><br><br>
+        <label for="fn">First Name:</label>
+        <input type="text" name="fn"><br><br>
+        <label for="ln">Last Name:</label>
+        <input type="text" name="ln"><br><br>
+        <label for="em">Email</label>
+        <input type="email" name="em"><br><br>
+        <label for="spw">Set Password:</label>
+        <input type="password" name="spw"><br><br>
+        <label for="cpw">Confirm Password:</label>
+        <input type="password" name="cpw"><br><br>
+        <label for="da">D.O.B:</label>
+        <input type="date" name="da"><br><br>
+        <label for="pn">Phone Number:</label>
+        <input type="tel" name="pn"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age"><br><br>
+        <label for="add">Address:</label>
+        <textarea rows="3" cols="20" name="add"></textarea><br><br>
+        <label for="re">Resume:</label>
+        <input type="file" name="re"><br><br>
         <button type="submit">submit</button>
     </fieldset>
 </body>
